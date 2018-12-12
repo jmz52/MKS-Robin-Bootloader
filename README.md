@@ -1,7 +1,7 @@
 # MKS-Robin-Bootloader
 
-This repository contains tool that allow you to create a backup copy of bootloader from your MKS Robin board (STM32F103ZET6).
-Backup copy of bootloader can be used to return original board's functionality after you had programm board with an alternative firmware.
+This repository contains tool that allows you to create a backup copy of bootloader from your MKS Robin board (STM32F103ZET6).
+Backup copy of bootloader can be used to return original board's functionality after you had program board with an alternative firmware.
 
 # HowTo
  - copy Robin.bin to SD card

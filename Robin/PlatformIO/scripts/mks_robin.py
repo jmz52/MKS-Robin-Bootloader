@@ -10,7 +10,7 @@ def encrypt(source, target, env):
     try:
         while position < length:
             byte = fi.read(1)
-            if position >= 320 and position <= 31040:
+            if position >= 320 and position < 31040:
                 byte = chr(ord(byte) ^ key[position & 31])
             fo.write(byte)
             position += 1
